@@ -4,90 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIMPLY CHOCOLATE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/index.html">SIMPLY CHOCOLATE</a>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">How it’s made?</a></li>
-                <li><a href="">Chocolate is loved</a></li>
+    
+    <header class="header">
+        <nav class="header-navigation">
+                 <!--Logo-->
+            <a class="header-logo" href="./index.html"><span class="header-logo-italic">SIMPLY</span> CHOCOLATE</a>
+                <!--Menu-->
+            <ul class="header-list">
+                <li class="header-menu-item"><a class="heade-menu-link" href="">Home</a></li>
+                <li class="header-menu-item"><a class="heade-menu-link" href="">How it’s made?</a></li>
+                <li class="header-menu-item"><a class="heade-menu-link" href="">Chocolate is loved</a></li>
             </ul>
         </nav>
         </header>
         <main>
-            <section>
-                <h1>Treat yourself or a loved one to
+            <section class="hero">
+                <h1 class="hero-title">Treat yourself or a loved one to
                 our finest ingredients for a moment
                 of pure delight</h1>
 
-                <!--Button-->
-                <button type="button">Buy now</button>
+                 <!--Button-->
+                <button class="hero-btn" type="button">Buy now</button>
 
-                <a href="">How it’s made</a>
-                <a href="">scroll down</a>
+                <a class="hero-link-shadow" href="">How it’s made</a>
+                <a class="hero-link-scroll" href="">scroll down</a>
             </section>
-            <section>
-                <h2>Features</h2>
-                <ul>
-                    <li>
-                        <h3>Unsurpassed taste</h3>
-                          <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
+            <section class="Features">
+                <!--Features-->
+                <h2 class="visually-hidden">Features</h2>
+                <ul class="Features-navigation">
+                    <li class="Features-item">
+                        <h3 class="Features-subtitle features-section-subtitle ">Unsurpassed taste</h3>
+                          <p class="Features-text features-section-text">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that
                           simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of
                           chocolate bliss.</p>
                     </li>
                     <li>
-                        <h3>Affordable price</h3>
-                          <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
+                        <h3 class="Features-subtitle features-section-subtitle ">Affordable price</h3>
+                          <p class="Features-text features-section-text" >Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats.
                           Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and
                           indulge in affordable luxury today.</p>       
                    </li>
                     <li>
-                        <h3>Own production</h3>
-                          <p>We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
+                        <h3 class="Features-subtitle features-section-subtitle ">Own production</h3>
+                          <p class="Features-text features-section-text" >We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting
                           the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
                 </li>
                 </ul>
             </section>
-            <section>
-                <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
-                <p>
+            <!--Product-->
+            <section class="product">
+                <h2 class="product-title">IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
+                <p class="product-text">
                     At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the
                     finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one
                     exceptional taste sensation.
                </p>
-               <ul>
-                 <li>
-                   <img src="./images/milkchokolate.webp"
+               <ul class="product-navigation">
+                 <li class="product-menu">
+                   <img class="product-menu-img" src="./images/milkchokolate.webp"
                      alt="milk chokolate"
                      width="206"
                      height="160"
                      />
+                     <h3 class="product-menu-subtitle product-section-subtetle">mILK CHOCOLATE</h3>
+                     
                  </li>
                  <li>
-                    <img
+                    <img class="product-menu-img"
                      src="./images/milk.webp"
                      alt="milk"
                      width="206"
                      height="160"
                      />
+                     <h3 class="product-menu-subtitle product-section-subtetle">Milk</h3>
                  </li>
                  <li>
-                    <img
+                    <img class="product-menu-img"
                      src="./images/semi.webp"
                      alt="semi"
                      width="206"
                      height="160"
                      />
+                     <h3 class="product-menu-subtitle product-section-subtetle">sEMI - SWEET CHOCOLATE</h3>
                 </li>
                 <li>
-                    <img
+                    <img class="product-menu-img"
                       src="./images/nuts.webp"
                       alt="nuts"
                       width="206"
                       height="160"
                       />
+                      <h3 class="product-menu-subtitle product-section-subtetle">nuts</h3>
                 </li>
                </ul>
             </section>
