@@ -128,12 +128,7 @@ body {
 
 
 .product-text {
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 1.28571;
-     letter-spacing: -0.02em;
      text-align: center;
-     color: #111;
 }
 
 .product-navigation {}
@@ -172,7 +167,7 @@ body {
      color: #fff;
 }
 
-                                  /*---------Sectin#4  hOW IT’S made? ---------*/
+                                  /*---------Sectin#4  hOW IT’S made?---------*/
 .production {}
 
 .production-title {
@@ -194,7 +189,7 @@ body {
 .production-subtitle {
       font-weight: 600;
       font-size: 18px;
-      line-height: 1.33333;
+      line-height: 1.33;
       color: #111;
 }
 
@@ -209,7 +204,7 @@ body {
 .production-section-text {
       font-weight: 400;
       font-size: 14px;
-      line-height: 1.28571;
+      line-height: 1.28;
       letter-spacing: -0.02em;
       color: #111;
 }
