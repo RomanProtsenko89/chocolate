@@ -113,8 +113,19 @@ body {
 .product {}
 
 .product-title {
-    
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 1.16667;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #111;    
 }
+
+.product-title-orange {
+     color: #fd9222;
+}
+
 
 .product-text {
      font-weight: 400;
@@ -127,13 +138,32 @@ body {
 
 .product-navigation {}
 
-.product-menu {}
+.product-menu {
+      background: #fff;
+}
 
-.product-menu-img {}
+.product-subtitle-black {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.28571;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      color: #111;
+}
 
-.product-menu-subtitle { }
+.product-menu-img {
 
-.product-section-subtetle {
+}
+.product-menu-orange {
+     background: #fd9222;
+}
+
+
+.product-menu-black {
+     background: #1e1823;
+}
+
+.product-subtitle-white {
      font-weight: 600;
      font-size: 14px;
      line-height: 1.28571;
@@ -141,6 +171,52 @@ body {
      text-transform: uppercase;
      color: #fff;
 }
+
+                                  /*---------Sectin#4  hOW IT’S made? ---------*/
+.production {}
+
+.production-title {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 1.16667;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #111;
+}
+
+.production-title-orange {
+      color: #fd9222;
+}
+
+.production-img {}
+
+.production-subtitle {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 1.33333;
+      color: #111;
+}
+
+.production-navigation {
+     list-style-type: disc;
+}
+
+.production-menu {}
+
+.production-menu-text {}
+
+.production-section-text {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.28571;
+      letter-spacing: -0.02em;
+      color: #111;
+}
+
+     
+
+
 
 
 
